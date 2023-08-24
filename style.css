@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,500;10..48,600&family=Preahvihear&family=Tilt+Prism&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+.whole-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.game-name {
+  font-family: "Tilt Prism", cursive;
+  font-size: 40px;
+}
+
+.Guess-between {
+  font-family: "Tilt Prism", cursive;
+  font-size: 25px;
+}
+
+#number-box {
+  margin-top: 100px;
+}
+
+#type-area {
+  margin-top: 20px;
+}
+
+#type-area{
+  border: 5px solid white;
+  padding: 70px;
+}
+
+#output {
+  font-size: 35px;
+  font-family: "Tilt Prism", cursive;
+  text-transform: uppercase;
+}
+
+#user-input{
+  margin-top: 20px;
+  padding: 10px;
+}
+.buttonclass{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: -40px;
+  margin-left: 200px;
+}
+#button1 {
+  padding: 10px;
+  border-radius: 10%;
+  border: none;
+  font-family: "Acme", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: rgba(92, 92, 92, 0.718);
+  color: white;
+}
+.button1 button:hover{
+  background-color: black;
+  transition: 0.9s ease-in-out;
+}
